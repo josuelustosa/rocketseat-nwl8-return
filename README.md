@@ -6,11 +6,13 @@ Este projeto foi inicializado com [Vite](https://vitejs.dev/).
 ## :zap: Executando aplicação localmente
 
 1. Clone este repositório ``git clone https://github.com/josuelustosadev/rocketseat-nwl8-return``;
-2. No diretório do projeto, você pode executar: ``npm run dev``.
-    * *Isso irá executar o aplicativo no modo de desenvolvimento.*
+2. No diretório do projeto, execute: ``npm i``
+    * Isso irá instalar as dependências utilizadas no projeto.
+4. No diretório do projeto, execute: ``npm run dev``
+    * Isso irá executar o aplicativo no modo de desenvolvimento.
     * Abra a url http://localhost:3000 em seu navegador para vizualizar a aplicação.
     * A página será recarregada quando você fizer alterações e você também pode ver erros de lint no console.
-
+* Caso você esteja usando o gerenciador de pacotes Yarn, ao invés do NPM, confira [aqui](https://chore-update--yarnpkg.netlify.app/pt-BR/docs/cli/) seus comandos.
 
 ## :cloud: Realizando deploy da aplicação
 ``npm run build`` compila o aplicativo para produção na buildpasta.
